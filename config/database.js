@@ -1,13 +1,6 @@
-var Datastore = require('nedb')
-    ,dbName = 'data.db'
-    ,db;
-
-if(!db) {
-    db = new Datastore({
-        filename: dbName, 
-        autoload: true 
-    });
-    console.log('Banco ' + dbName + ' pronto para uso')
-}
-
-module.exports = db;
+module.exports = {
+  user: 'sql10390435',
+  password: 'pMfnErjzBq',
+  host: 'sql10.freemysqlhosting.net',
+  database: 'sql10390435',
+};
